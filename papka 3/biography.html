@@ -2,25 +2,48 @@
 <html lang="uk">
   <head>
     <style>
-.list-item-odd {
-        background-color: grey;
+.contents-btn {
+        display: inline-block;
+        background-color: blue;
+        color: white;
+        width: 200spx;
+        height: 30px;
+        padding: 15px;
+        border: 2px solid black;
+      }
+      .contents-btn:hover {
+        background-color: magenta;
         color: black;
       }
-
-      .list-item-even {
-        color: black;
+      .contents-btn:active {
+        background-color: yellow;
+        color: blue;
       }
 
-      .list-item-third,
-      .list-item-fifth {
-        cursor: pointer;
+      .text-base {
+        background-color: black;
+        color: white;
       }
 
-      .list-item-fourth {
-        background-color: lightblue;
+      .text-child {
+        background-color: blue;
+        color: yellow;
       }
 
-      
+      .text-school {
+        background-color: magenta;
+        color: lightgreen;
+      }
+
+      .text-after {
+        background-color: lightgreen;
+        color: darkred;
+      }
+
+      .text-uni {
+        background-color: lightsalmon;
+        color: rgb(55, 55, 55);
+      }
     </style>
     <title>Biography</title>
   </head>
@@ -28,18 +51,21 @@
 <h1 id="title-main"> Автобіографія Яремка Олега Руслановича</h1>
 <a href="./index.html"> Назад на головну</a>
 <h3 id="contents"> Зміст</h3>
-<a href="#title-base"> Базова інформація </a>
-<a href="#title-childh"> Дитинство</a>
-<a href="#title-school"> Шкільні роки </a>
- <a href="#after-school">Поза школою</a>
-<a href="#title-univ">Університет</a>
+<a class="contents-btn"  href="#title-base"> Базова інформація </a>
+<a class="contents-btn" href="#title-childh"> Дитинство</a>
+<a class="contents-btn" href="#title-school"> Шкільні роки </a>
+ <a class="contents-btn" href="#after-school">Поза школою</a>
+<a class="contents-btn" href="#title-univ">Університет</a>
 <article id="title-base">
+  
  <h2> Базова інформація</h2>
  <p> Мене звати Яремко Олег Русланович.Мені 17 років.Народився 23 квітня 2006 року в місті Зугрес,що знаходиться в Донецькій обасті. Зараз проживаю в місті Івано-Франківськ.Випускник Долинського ліцею "Інтелект".
   Студент Прикарпатського національного університету ім. Василя Стефаника.Захоплююсь музикою,пограмуванням,комп'ютерними іграми.У вільний час люблю грати в футбол та волейбол. Характер: добрий. Не жонатий .Люблю піцу маргариту та гранатовий сік .</p>
  </article>
+    
       <a href="#contents">До змісту</a>
 <article id="title-childh">
+  
 <h2>Дитинство</h2>
   <p>Проживав у місті Зугрес перші 8 років свого життя.Звичайне дитинтство будь-якої дитини.
 Я змагався зі своїми друзями, хто зможе побудувати вищу башту з конструктора, та проводив маленькі хімічні досліди у власній кухні.
