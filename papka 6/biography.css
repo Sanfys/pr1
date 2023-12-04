@@ -122,7 +122,7 @@ font-size: 144%;
    }
   }
   
-  /*medium */
+
   @media (min-width: 768px) and (max-width: 992px){
    .col-md-1 {
     flex-basis: 8.33%;
@@ -162,7 +162,7 @@ font-size: 144%;
    }
   }
   
-  /*small*/
+
   @media (max-width: 768px){
    .col-sm-1 {
     flex-basis: 8.33%;
