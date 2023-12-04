@@ -1,0 +1,70 @@
+
+      .h1 {
+  text-align: center;
+  font-size: 22px;
+}
+      .n{
+font-style: italic;
+}
+
+      .h3 {
+ text-align: center;
+        
+      }
+      .ch{
+font-size: 120%;
+      }
+      .inf{
+
+font-size: 144%;
+    }
+      .d{
+ font-weight: bold;
+    }
+
+
+      
+.contents-btn {
+        display: inline-block;
+        background-color: blue;
+        color: white;
+        width: 200spx;
+        height: 20px;
+        padding: 15px;
+        border: 2px solid black;
+      }
+      .contents-btn:hover {
+        background-color: magenta;
+        color: black;
+      }
+      .contents-btn:active {
+        background-color: yellow;
+        color: blue;
+      }
+
+      .title-base {
+        background-color: black;
+        color: white;
+      }
+
+      .title-childh {
+        background-color: BlueViolet;
+        color: Azure;
+      }
+
+      .title-school {
+        background-color: Chocolate;
+        color: Azure;
+      }
+
+      .after-school {
+        background-color: DarkGreen;
+        color: AliceBlue;
+      }
+
+      .title-univ {
+        background-color: lightsalmon;
+        color: rgb(155, 535, 55);
+        
+       
+      }
