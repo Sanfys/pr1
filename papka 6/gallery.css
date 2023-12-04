@@ -31,6 +31,9 @@
             margin-right: auto;
         
         }
+img{
+    width: 100%;
+}
 
 .container{
     display: flex;
