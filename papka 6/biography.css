@@ -45,26 +45,33 @@ font-size: 144%;
       .title-base {
         background-color: black;
         color: white;
+    border:solid 1px;
       }
 
       .title-childh {
         background-color: BlueViolet;
         color: Azure;
+             border:solid 1px;
       }
 
       .title-school {
         background-color: Chocolate;
         color: Azure;
+             border:solid 1px;
       }
 
       .after-school {
         background-color: DarkGreen;
         color: AliceBlue;
+             border:solid 1px;
       }
 
       .title-univ {
         background-color: lightsalmon;
         color: rgb(155, 535, 55);
+             border:solid 1px;
+      }
+            
         
        
       }
