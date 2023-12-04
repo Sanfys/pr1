@@ -1,30 +1,28 @@
-.link1:link {
-  color: lightblue;
-}
-.link1:visited {
-  color: yellow;
-}
 
-.link2:link {
-  color: red;
-}
-.link2:visited {
-  color: green;
-}
-
-.link3:link {
-  color: lightcoral;
-}
-.link3:visited {
-  color: lightskyblue;
-}
-
-.link4:link {
-  color: darkorchid;
-}
-.link4:visited {
-  color: darkturquoise;
-}
+          .link1:link {
+            color: aquamarine;
+          }
+      .link1:visited{
+            color: aqua;
+          }
+     .link2:link {
+            color: blue;
+          }
+      .link2:visited{
+            color: BlueViolet;
+      }
+     .link3:link {
+            color: red;
+          }
+      .link3:visited{
+            color: Coral;
+      }
+     .link4:link {
+            color: green;
+          }
+      .link4:visited{
+            color: DarkGreen;
+      }
 
 h1 {
   text-align: center;
