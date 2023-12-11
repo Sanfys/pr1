@@ -13,7 +13,7 @@ header {
 .txt_title,
 .list_title,
 .table_title,
-.img_itle {
+.img_title {
   font-size: 120%;
   font-family: "Ubuntu", sans-serif;
   height: 30px;
@@ -75,7 +75,7 @@ td {
   background-color: aqua;
 }
 
-.img_itle {
+.img_title {
   background-color: gray;
   color: chartreuse;
 }
