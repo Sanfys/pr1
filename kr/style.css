@@ -10,10 +10,10 @@ header {
   text-align: center;
 }
 
-.text-title,
-.list-title,
-.table-title,
-.image-title {
+.txt_title,
+.list_title,
+.table_title,
+.img_itle {
   font-size: 120%;
   font-family: "Ubuntu", sans-serif;
   height: 30px;
@@ -25,7 +25,7 @@ header {
   background-color: green;
 }
 
-.text-title {
+.txt_title {
   background-color: pink;
   color: white;
 }
@@ -38,7 +38,7 @@ header {
   background-color: yellow;
 }
 
-.list-title {
+.list_title {
   background-color: black;
   color: yellow;
 }
@@ -47,12 +47,12 @@ header {
   background-color: red;
 }
 
-.table-title {
+.table_title {
   background-color: black;
   color: red;
 }
 
-.table-content {
+.table_cont {
   color: white;
   border: 2px solid white;
   border-collapse: collapse;
@@ -71,20 +71,20 @@ td {
   padding: 5px;
 }
 
-.image {
+.img {
   background-color: aqua;
 }
 
-.image-title {
+.img_itle {
   background-color: gray;
   color: Aqua;
 }
 
-.image-link {
+.img_link {
   margin: 15px;
   margin-bottom: 30px;
-  display: flex;
   justify-content: center;
+  display: flex;
   align-items: center;
 }
 
