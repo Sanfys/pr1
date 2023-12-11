@@ -1,4 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;700&family=Ubuntu:wght@400;700&display=swap");
+
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Rethink+Sans:wght@700&family=Roboto&display=swap');
+
 
 body {
   font-size: 20px;
@@ -6,7 +8,7 @@ body {
 }
 
 header {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Rethink Sans', sans-serif;
   text-align: center;
 }
 
@@ -15,7 +17,7 @@ header {
 .table_title,
 .img_title {
   font-size: 120%;
-  font-family: "Ubuntu", sans-serif;
+  font-family: 'Roboto', sans-serif;
   height: 30px;
   width: 200px;
   padding: 5px;
